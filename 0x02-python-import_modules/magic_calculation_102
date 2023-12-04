@@ -1,13 +1,16 @@
 #!/usr/bin/python3
-    from calculator_1 import add, sub, mul, div
-    a = int(sys.argv[1])
-    b = int(sys.argv[3])
+# adding function
+def add(a, b):
+    return (a + b)
 
-    if op == '+':
-        print("{} + {} = {}".format(a, b, add(a, b)))
-    elif op == '-':
-        print("{} - {} = {}".format(a, b, sub(a, b)))
-    elif op == '*':
-        print("{} * {} = {}".format(a, b, mul(a, b)))
-    else:
-        print("{} / {} = {}".format(a, b, div(a, b)))
+# substruction function
+def sub(a, b):
+    return (a - b)
+
+# multiplication function
+def mul(a, b):
+    return (a * b)
+
+# division function
+def div(a, b):
+    return int(a / b)
