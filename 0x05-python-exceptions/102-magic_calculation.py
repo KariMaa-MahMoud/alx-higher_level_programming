@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+  """Contain a magic function """
+
 
 def magic_calculation(a, b):
     result = 0
