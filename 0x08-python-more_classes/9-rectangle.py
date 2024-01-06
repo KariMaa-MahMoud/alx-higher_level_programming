@@ -2,6 +2,7 @@
 """9-rectangle task 9.
 """
 
+
 class Rectangle:
     """A Rectangle class with attributes width and height,
     methods area, perimeter, print, str, repr, and del, and
