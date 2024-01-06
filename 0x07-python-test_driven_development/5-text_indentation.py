@@ -34,3 +34,7 @@ def text_indentation(text):
             s = i + d if s is "" else s + "\n\n" + i + d
 
     print(s[:-3], end="")
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testfile.("tests/5-text_indentation.text")
