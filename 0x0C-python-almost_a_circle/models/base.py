@@ -161,4 +161,4 @@ class Base:
             t.left(90)
             t.end_fill()
 
-        time.sleep(5)
+        time.sleep(3)
