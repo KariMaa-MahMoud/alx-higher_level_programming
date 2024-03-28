@@ -1,14 +1,16 @@
 #!/usr/bin/python3
-""" Finds Peak values """
 
+""" Finds Peak values """
 def find_peak(list_of_integers):
     """Find the peak"""
-    if len(list_of_integers) == 0:
+    list_l = len(list_of_integers)
+    if list_l == 0:
         return None
-    
+    peak = binary_search(list_of_integers, 0, list_l - 1)
+    return list_of_integers[peak]
+
+
 """ binary search algorithim """
-
-
 def binary_search(a, lo, hi):
     """Recursive binary search of the peak"""
     if lo >= hi:
